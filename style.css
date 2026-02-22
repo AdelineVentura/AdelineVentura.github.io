@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Britney';
+  src: url('assets/fonts/Britney-Regular.eot'),
+       url('assets/fonts/Britney-Regular.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/Britney-Regular.woff2') format('woff2'),
+       url('assets/fonts/Britney-Regular.woff') format('woff'),
+       url('assets/fonts/Britney-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('assets/fonts/Satoshi-Regular.eot'),
+       url('assets/fonts/Satoshi-Regular.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('assets/fonts/Satoshi-Regular.woff') format('woff'),
+       url('assets/fonts/Satoshi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Base Reset */
 * {
   margin: 0;
@@ -15,7 +37,7 @@
 
 /* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Satoshi', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -38,13 +60,14 @@ body {
 /* Profile Image */
 .profile-image {
   width: 300px;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 12px;
 }
 
 /* Bio */
 .bio h1 {
+  font-family: 'Britney', sans-serif;
   font-size: 3rem;
   margin-bottom: 10px;
 }
