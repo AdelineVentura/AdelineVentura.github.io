@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Britney';
-  src: url('assets/fonts/Britney-Regular.eot'),
-       url('assets/fonts/Britney-Regular.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/Britney-Regular.woff2') format('woff2'),
-       url('assets/fonts/Britney-Regular.woff') format('woff'),
-       url('assets/fonts/Britney-Regular.ttf') format('truetype');
+  src: url('assets/fonts/Britney/Britney-Regular.eot'),
+       url('assets/fonts/Britney/Britney-Regular.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/Britney/Britney-Regular.woff2') format('woff2'),
+       url('assets/fonts/Britney/Britney-Regular.woff') format('woff'),
+       url('assets/fonts/Britney/Britney-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('assets/fonts/Satoshi-Regular.eot'),
-       url('assets/fonts/Satoshi-Regular.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/Satoshi-Regular.woff2') format('woff2'),
-       url('assets/fonts/Satoshi-Regular.woff') format('woff'),
-       url('assets/fonts/Satoshi-Regular.ttf') format('truetype');
+  src: url('assets/fonts/Satoshi/Satoshi-Regular.eot'),
+       url('assets/fonts/Satoshi/Satoshi-Regular.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
+       url('assets/fonts/Satoshi/Satoshi-Regular.woff') format('woff'),
+       url('assets/fonts/Satoshi/Satoshi-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
